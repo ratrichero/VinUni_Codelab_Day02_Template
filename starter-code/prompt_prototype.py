@@ -12,9 +12,18 @@ Instructions:
 
 import os
 import sys
+import io
 from typing import Any
 from google import genai
 from google.genai import types
+
+# Đảm bảo mã hóa UTF-8 cho stdout trên Windows
+if sys.stdout.encoding != 'utf-8':
+    try:
+        sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+        sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+    except Exception:
+        pass
 
 # Standard Model Identifier
 GEMINI_MODEL = "gemini-2.5-flash"
