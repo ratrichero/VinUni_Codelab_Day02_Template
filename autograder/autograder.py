@@ -7,7 +7,7 @@ import re
 
 # Đảm bảo mã hóa UTF-8 cho stdout trên mọi nền tảng
 if sys.stdout.encoding != 'utf-8':
-    try:
+    try: 
         import io
         sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
         sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
