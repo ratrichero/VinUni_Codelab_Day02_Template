@@ -67,13 +67,12 @@ Chọn Top 3 bài toán tiềm năng nhất từ danh sách trên để phân t�
 │                                                                         │
 │ Quick Architecture: [x] LLM Feature (Kết hợp Rule ranh giới an toàn)    │
 └─────────────────────────────────────────────────────────────────────────┘
-```
+
 
 ---
 
 ### 🎴 QUICK PROBLEM CARD #2: Vinhomes — Phân loại & định tuyến tự động phản ánh cư dân
 
-```text
 ┌─────────────────────────────────────────────────────────────────────────┐
 │ QUICK PROBLEM CARD #2                                                   │
 │                                                                         │
@@ -110,7 +109,6 @@ Chọn Top 3 bài toán tiềm năng nhất từ danh sách trên để phân t�
 
 ### 🎴 QUICK PROBLEM CARD #3: Vinmec — Trợ lý soạn nháp bản tóm tắt xuất viện (Discharge Summary)
 
-```text
 ┌─────────────────────────────────────────────────────────────────────────┐
 │ QUICK PROBLEM CARD #3                                                   │
 │                                                                         │
