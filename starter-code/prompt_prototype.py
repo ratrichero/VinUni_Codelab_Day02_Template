@@ -1,4 +1,5 @@
 """
+..
 Day 2 — AI Product Scoping (Vin Smart Future)
 Lightweight Prompt Boundary Prototyping (Starter Code)
 
@@ -13,6 +14,7 @@ Instructions:
 import os
 import sys
 from typing import Any
+# Standard Model Identifier
 
 # Standard Model Identifier
 GEMINI_MODEL = "gemini-2.5-flash"
